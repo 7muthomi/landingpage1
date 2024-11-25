@@ -1,0 +1,96 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+  background-color: #007bff;
+  color: white;
+}
+
+.navbar {
+  padding: 0.5rem;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  margin-right: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f8f9fa;
+}
+
+/* Product Section */
+#products {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px 0;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .navbar-nav .nav-item {
+    margin-top: 10px;
+  }
+
+  .card img {
+    height: 150px;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+  }
+
+  .card-text {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+}
